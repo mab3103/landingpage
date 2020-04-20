@@ -10,6 +10,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
 
 library.add(faInstagram, faGithub, faLinkedin);
 
@@ -29,6 +30,7 @@ function App() {
     <Container>
       <Hero />
       <Skills />
+      <Projects />
     </Container>
   );
 }

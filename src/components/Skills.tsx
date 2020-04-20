@@ -25,6 +25,9 @@ const Skill = styled.p`
   @media (max-width: 800px) {
     flex-basis: 50%;
   }
+  @media (max-width: 400px) {
+    flex-basis: 100%;
+  }
 `;
 
 const Point = styled.span`
