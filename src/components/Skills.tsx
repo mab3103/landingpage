@@ -47,8 +47,10 @@ export const Skills = () => {
   return (
     <div>
       <h1>My Skills</h1>
-      You can see my CV{" "}
-      <CVLink href="https://mickybizzle.github.io/cv/">here</CVLink>.
+      <span style={{ fontSize: "1.5em" }}>
+        You can see my CV{" "}
+        <CVLink href="https://mickybizzle.github.io/cv/">here</CVLink>.
+      </span>
       <Container>
         <Text>
           I studied computer science at university where I learnt the
