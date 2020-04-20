@@ -46,12 +46,8 @@ const CVLink = styled.a`
 export const Skills = () => {
   return (
     <div>
-      <h1>
-        My Skills -{" "}
-        <CVLink href="https://mickybizzle.github.io/cv/">
-          Check out my CV!
-        </CVLink>
-      </h1>
+      <h1>My Skills</h1>
+      <CVLink href="https://mickybizzle.github.io/cv/">My CV</CVLink>
       <Container>
         <Text>
           I studied computer science at university where I learnt the
@@ -60,16 +56,11 @@ export const Skills = () => {
           web technology and the power of web and mobile apps.
         </Text>
         <Text>
-          After graduating, I got onto a graduate scheme at{" "}
+          After graduating, I enrolled on a graduate scheme at{" "}
           <span style={{ color: "#e60000", fontWeight: "bold" }}>Vodafone</span>
-          , doing 3 placements over 2 years. Over the 2 years I gained
-          experience with Python machine learning and data science, as well as
-          building IoT solutions using a range of technologies, mainly
-          Javascript.
-        </Text>
-        <Text>
-          In my spare time I have been learning ReactJS and React Native, and
-          have worked on several projects that you can view on my github repo.
+          , doing 3 placements over 2 years. In that time I gained experience
+          with machine learning and data science, as well as building IoT
+          solutions using a range of technologies.
         </Text>
       </Container>
       <Container>

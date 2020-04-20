@@ -53,6 +53,12 @@ const ProjectP = styled.span`
   height: 200px;
 `;
 
+const ProjectLink = styled.h4`
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 export const Projects = () => {
   return (
     <div>
@@ -75,6 +81,7 @@ export const Projects = () => {
           <ProjectP>
             A sleek login UI using react native reanimated animations.
           </ProjectP>
+          <ProjectLink>Have a look</ProjectLink>
         </Project>
         <Project
           href="https://github.com/MickyBizzle/covidtracker"
@@ -90,6 +97,7 @@ export const Projects = () => {
             A ReactJS app to visualise the coronavirus across the earth, using
             the covid19api and react-simple-maps.
           </ProjectP>
+          <ProjectLink>Have a look</ProjectLink>
         </Project>
         <Project
           href="https://github.com/MickyBizzle/react-responsive-bricks"
@@ -104,6 +112,7 @@ export const Projects = () => {
           <ProjectP>
             An NPM package for building responsive masonry layouts using React.
           </ProjectP>
+          <ProjectLink>Have a look</ProjectLink>
         </Project>
         <Project href="https://mwrl.co.uk/" target="_blank">
           <ProjectImage
@@ -116,6 +125,7 @@ export const Projects = () => {
             A website for a Rounders team, using Google Sheets API to pull
             scores from a sheet. Hosted with Firebase.
           </ProjectP>
+          <ProjectLink>Have a look</ProjectLink>
         </Project>
       </Container>
     </div>

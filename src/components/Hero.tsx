@@ -39,8 +39,8 @@ export const Hero = () => {
       <Social />
       <Text>Hello, my name is Michael.</Text>
       <Text>
-        I <Colour color="red">code</Colour> things, <Colour>design</Colour>{" "}
-        things and <Colour>learn</Colour> things.
+        I <Colour>code</Colour>, <Colour>design</Colour> and{" "}
+        <Colour>learn</Colour>.
       </Text>
       <HeroImg src={background} />
     </HeroContainer>
