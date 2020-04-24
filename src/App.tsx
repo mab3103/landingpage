@@ -11,10 +11,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
+import { CVButton } from "./components/CVButton";
 
 library.add(faInstagram, faGithub, faLinkedin);
 
 const Container = styled.div`
+  position: relative;
   @media (min-width: 960px) {
     max-width: 940px;
   }
@@ -28,6 +30,7 @@ const Container = styled.div`
 function App() {
   return (
     <Container>
+      <CVButton />
       <Hero />
       <Skills />
       <Projects />

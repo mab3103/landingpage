@@ -35,22 +35,10 @@ const Point = styled.span`
   margin-right: 10px;
 `;
 
-const CVLink = styled.a`
-  text-decoration: none;
-  color: #85bdbf;
-  &:hover {
-    text-decoration: underline;
-  }
-`;
-
 export const Skills = () => {
   return (
     <div>
       <h1>My Skills</h1>
-      <span style={{ fontSize: "1.5em" }}>
-        You can see my CV{" "}
-        <CVLink href="https://mickybizzle.github.io/cv/">here</CVLink>.
-      </span>
       <Container>
         <Text>
           I studied computer science at university where I learnt the
