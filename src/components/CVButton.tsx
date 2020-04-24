@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-const Container = styled.div`
+interface MyStyleProps {
+  hasScrolled: boolean;
+}
+
+const Container: any = styled.div`
   position: fixed;
   z-index: 10000;
   background: red;
   transition: top 0.5s ease-in-out;
-  // @ts-ignore
-  top: ${(props) => (props.hasScrolled ? 0 : "-100px")};
+  top: ${(props: MyStyleProps) => (props.hasScrolled ? 0 : "-100px")};
   left: 50%;
   transform: translateX(-50%);
   background: white;
@@ -40,7 +43,6 @@ export const CVButton = () => {
   });
 
   return (
-    // @ts-ignore
     <Container hasScrolled={hasScrolled}>
       <CVLink href="https://mickybizzle.github.io/cv/">Check out my CV</CVLink>
     </Container>
